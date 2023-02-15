@@ -5,8 +5,8 @@ const App = () => {
 //code here 
   return (
     <div id="main">
-      <p className={para} >Newton School</p>
-      <button id='button' onClick={changeColor}>Change Style</button>
+      <p className={redColor} >Newton School</p>
+      <button id='button' onClick={blueColor}>Change Style</button>
     </div>
   )
 }
